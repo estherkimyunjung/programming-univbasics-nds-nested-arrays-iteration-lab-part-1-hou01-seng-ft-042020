@@ -9,7 +9,8 @@ def find_even_values(src)
     column = 0 
     while column < src[row_index].length do 
       if src[row_index][column] % 2 == 0 
-        p 
+        p src[row_index][column]
+      end
       column += 1 
     end
     row_index += 1 
